@@ -1,2 +1,2 @@
-# ImersaoCss-Portif-lio
+# ImersaoCss-Portifólio
 Semana de ImersãoCss da Alura 
