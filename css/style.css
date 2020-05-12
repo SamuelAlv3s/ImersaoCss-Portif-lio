@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&family=Oswald:wght@300;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none; 
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: linear-gradient(to bottom, #FFA17F, #00223E);
+    background-size: auto 100vh;
+  }
+
+  .menu{
+      background-color: whitesmoke;
+  }
+
+  .menu ul{
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+  }
+
+  .menu ul li a{
+    font-family: 'DM Mono', monospace;
+    font-size: 25px;
+    color: #FFA17F;
+  }
+
+  .site-title,
+  .site-subtitle{
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      color: whitesmoke;
+  }
+
+  .site-title{
+      font-size: 50px;
+  }
