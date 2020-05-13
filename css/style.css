@@ -13,10 +13,21 @@
   body{
     background: linear-gradient(to bottom, #FFA17F, #00223E);
     background-size: auto 100vh;
+    font-size: 14px;
+  }
+
+  header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .menu{
       background-color: whitesmoke;
+      position: fixed;
+      width: 100vw;
+      top: 0;
   }
 
   .menu ul{
@@ -27,8 +38,13 @@
 
   .menu ul li a{
     font-family: 'DM Mono', monospace;
-    font-size: 25px;
+    font-size: 1.1em;
     color: #FFA17F;
+  }
+
+  .menu a{
+    display: block;
+    padding: 10px 15px;
   }
 
   .site-title,
@@ -40,4 +56,12 @@
 
   .site-title{
       font-size: 50px;
+  }
+
+  /*BreakPoints*/
+
+  @media (min-width: 400px){
+    .menu ul li a{
+      font-size: 1.3em;
+    }
   }
