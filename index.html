@@ -1,53 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Samuel Alves</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+      
+  <title>Samuel Alves</title>
 </head>
+
 <body>
-    <header>
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre mim</a></li>
-            <li><a href="#">Portifólio</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-        <div class="menu-titles">
-          <h1 class="site-title">Samuel Alves</h1>
-          <h2 class="site-subtitle">Developer</h2> 
-          <div>
-            <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_4v020T.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-          </div>
-        </div>
-       
+  <header>
+    <span class="material-icons icone-menu">menu</span>
+    <nav class="menu hide">
+      <span class="material-icons icone-close">close</span>
+      <ul>
+        <li><a href="#">Sobre mim</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="menu-titles">
+      <h1 class="site-title">Samuel Alves</h1>
+      <h2 class="site-subtitle">Developer</h2>
+      <div class="lottie">
+        <lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_4v020T.json" background="transparent"
+          speed="1.2" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+      </div>
+    </div>
+    <a href="#projetos" class="link-projetos">
+      <span class="material-icons icone-drop-down">arrow_drop_down_circle</span>
+    </a>
+  </header>
 
-       
-       
-
-      </header>
-
-      <section>
-        <h2>Portfólio</h2>
-        <figure>
-          <img class="img-portfolio" src="https://images.unsplash.com/photo-1562875191-598762e4a632?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="loading">
-          <figcaption>loading</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="https://images.unsplash.com/photo-1588008121820-c26eb8f25c02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=">loading">
-          <figcaption>loading</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="https://images.unsplash.com/photo-1576008714067-72d412e282e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="loading">
-          <figcaption>loading</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="https://images.unsplash.com/photo-1575624435329-3e5ccd083821?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="loading">
-          <figcaption>loading</figcaption>
-        </figure>
-      </section>
+  <section class="projetos" id="projetos">
+    <h2>Projetos</h2>
+    <figure>
+      <img class="img-projetos"
+        src="https://images.unsplash.com/photo-1562875191-598762e4a632?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        alt="loading">
+      <figcaption>loading</figcaption>
+    </figure>
+    <figure>
+      <img class="img-projetos"
+        src="https://images.unsplash.com/photo-1588008121820-c26eb8f25c02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        alt=">loading">
+      <figcaption>loading</figcaption>
+    </figure>
+    <figure>
+      <img class="img-projetos"
+        src="https://images.unsplash.com/photo-1576008714067-72d412e282e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        alt="loading">
+      <figcaption>loading</figcaption>
+    </figure>
+    <figure>
+      <img class="img-projetos"
+        src="https://images.unsplash.com/photo-1575624435329-3e5ccd083821?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+        alt="loading">
+      <figcaption>loading</figcaption>
+    </figure>
+  </section>
 </body>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="./scripts.js"></script>
 </html>
